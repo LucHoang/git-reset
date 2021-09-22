@@ -37,8 +37,8 @@ public class TestLungTung {
 //        }
         T t = new T();
         out.println(t.getChuoi());
-//        String s1 = "";
-//        String s2 = null;
+        String s1 = "";
+        String s2 = null;
 //
 //        System.out.println(s1.isEmpty());
 //        System.out.println(s2.isEmpty());
