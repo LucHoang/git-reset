@@ -1,0 +1,20 @@
+Nguyen Van Vinh|7.3
+Dao Duy Tien|9.1
+Ngo Xuan Mai|9.5
+Vu Le Duc Anh|3.7
+Pham Trung Dung|5.0
+Nguyen Thi Phuong|7.8
+Nguyen Thi Van Anh|7.5
+Bui Van Anh|8.0
+Vu Duy Thanh|2.1
+Vu Xuan Truong|3.1
+Vuong Son Tung|5.0
+Vuong Sy Hai Son|6.1
+Ngo Duy Minh|7.2
+Pham Minh Duc|8.5
+Ngo Duy Hung|4.3
+Pham Thu Ha|8.2
+Nguyen Thi Thuy Linh|9.8
+Tran Van Dang|5.7
+Nguyen Minh Thu|8.0
+Nguyen Thi Mai|7.4

@@ -1,0 +1,32 @@
+Nguyen Thi Thuy Linh    |   9.8 |  Gioi
+Ngo Xuan Mai            |   9.5 |  Gioi
+Dao Duy Tien            |   9.1 |  Gioi
+Pham Minh Duc           |   8.5 |  Gioi
+Pham Thu Ha             |   8.2 |  ...
+Bui Van Anh             |   8.0 |  ...
+Nguyen Minh Thu         |   8.0 |
+Nguyen Thi Phuong       |   7.8 |
+Nguyen Thi Mai          |   7.3 |
+Nguyen Thi Van Anh      |   7.3 |
+Nguyen Van Vinh         |   7.3 |
+Ngo Duy Minh            |   7.2 |
+Vuong Sy Hai Son        |   6.1 |
+Tran Van Dang           |   5.0 |
+Pham Trung Dung         |   5.0 |
+Vuong Son Tung          |   5.0 |
+Ngo Duy Hung            |   4.3 |
+Vu Le Duc Anh           |   3.7 |
+Vu Xuan Truong          |   3.1 |
+Vu Duy Thanh            |   2.1 |
+
+
+
+
+
+
+
+
+
+
+
+
