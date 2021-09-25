@@ -27,8 +27,8 @@ public class TestLungTung {
 //        Component aComponent = null;
 //        int returnVal = fc.showOpenDialog(aComponent);
 
-        JButton jButton = new JButton();
-        JFileChooser jFileChooser = new JFileChooser();
+//        JButton jButton = new JButton();
+//        JFileChooser jFileChooser = new JFileChooser();
 //        jFileChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
 //        jFileChooser.setDialogTitle("Choose your Path!");
 ////        jFileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
