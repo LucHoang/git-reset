@@ -42,5 +42,6 @@ public class TestLungTung {
 //
         System.out.println(s1.isEmpty());
         System.out.println(s2.isEmpty());
+        System.out.println(s2.isEmpty());
     }
 }
