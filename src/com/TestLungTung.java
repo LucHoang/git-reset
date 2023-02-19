@@ -2,46 +2,46 @@ package com;
 
 
 
-import javax.swing.*;
-import java.awt.*;
-import java.io.File;
-import java.util.ArrayList;
+import java.io.*;
+import java.util.*;
 import java.util.List;
 
-import static java.lang.System.*;
-
 public class TestLungTung {
-    public static void main(String[] args) {
-//        StringBuffer s = new StringBuffer("hello how are you?");
-//
-//        Character x = s.charAt(6);
-//
-//        System.out.println(x);
-//    Animal a = new Animal();
+    public static void main(String[] args) throws IOException {
+        String s = "07:05:45PM";
+        System.out.println(timeConversion(s));
 
-        //Create a file chooser
-//        final JFileChooser fc = new JFileChooser();
-////In response to a button click:
-////        String aComponent = "\\Tai-Ve";
-//        fc.setDialogTitle("Choose your Path!");
-//        Component aComponent = null;
-//        int returnVal = fc.showOpenDialog(aComponent);
+    }
 
-//        JButton jButton = new JButton();
-//        JFileChooser jFileChooser = new JFileChooser();
-//        jFileChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
-//        jFileChooser.setDialogTitle("Choose your Path!");
-////        jFileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-//        if(jFileChooser.showSaveDialog(jButton) == JFileChooser.APPROVE_OPTION){
-//            out.println(jFileChooser.getSelectedFile());
-//        }
-        T t = new T();
-        out.println(t.getChuoi());
-        String s1 = "";
-        String s2 = null;
-//
-        System.out.println(s1.isEmpty());
-        System.out.println(s2.isEmpty());
-        System.out.println(s2.isEmpty());
+    public static String timeConversion(String s) {
+        // Write your code here
+        // if AM
+        // 12 -> 00
+        // if PM
+        // 01 -> 13
+        String[] pm = {"01","02","03","04","05","06","07","08","09","10","11"};
+        String[] h24 = {"13","14","15","16","17","18","19","20","21","22","23"};
+        Map<String, String> converMap = new HashMap<>();
+        for (int i=0;i<pm.length;i++) {
+            converMap.put(pm[i], h24[i]);
+        }
+        String type = s.substring(8);
+        String startH = s.substring(0, 2);
+        String result = s;
+        if("AM".equals(type)) {
+            if(startH.equals("12")) {
+                result = s.replace("12", "00");
+            }
+            return result.substring(0,8);
+        } else {
+
+            if(converMap.containsKey(startH)) {
+                result.replace(startH, converMap.get(startH));
+            }
+            return result.substring(0,8);
+        }
     }
 }
+
+
+
